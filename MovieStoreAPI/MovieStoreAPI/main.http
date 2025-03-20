@@ -29,3 +29,6 @@ Content-type:application/json
 
 ###
 DELETE https://localhost:7243/movies/7
+
+###
+GET https://localhost:7243/genres

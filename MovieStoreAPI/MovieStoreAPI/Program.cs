@@ -35,6 +35,7 @@ namespace MovieStoreAPI
 
             app.MapGet("/", () => "Hello World!");
             app.MapMoviesEndpoints();
+            app.MapGenresEndpoints();
 
             app.Run();
         }
